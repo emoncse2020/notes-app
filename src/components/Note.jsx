@@ -2,7 +2,7 @@ const Note = ({ note, deleteNote }) => {
   return (
     <div
       key={note.id}
-      className={`p-4 bg-white rounded-lg shadow-md border-l-4 ${
+      className={`p-4 bg-white rounded-lg shadow-md border-l-4 shrink-100 ${
         note.priority === "High"
           ? "border-l-red-500"
           : note.priority === "Medium"
